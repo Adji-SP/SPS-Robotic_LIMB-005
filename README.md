@@ -1,8 +1,8 @@
-# PakDwi
+# RoboticLimb
 
 ## Overview
 
-PakDwi is a biomechanical simulation and signal processing application designed for analyzing electromyography (EMG) and multi-sensor data from controlled joint systems. The application provides a comprehensive platform for simulating, visualizing, and analyzing sensor signals in the context of prosthetic limbs, exoskeletons, or robotic actuator systems.
+RoboticLimb is a biomechanical simulation and signal processing application designed for analyzing electromyography (EMG) and multi-sensor data from controlled joint systems. The application provides a comprehensive platform for simulating, visualizing, and analyzing sensor signals in the context of prosthetic limbs, exoskeletons, or robotic actuator systems.
 
 This software implements advanced signal processing techniques, including real-time frequency domain analysis, control theory visualization, and EMG-driven actuator dynamics modeling, providing researchers and developers with a sophisticated toolset for biomechanical system analysis.
 
@@ -324,7 +324,7 @@ The following NuGet packages are required:
 ## Project Structure
 
 ```
-PakDwi/
+RoboticLimb/
 ├── Program.cs                     # Application entry point
 ├── Form2.cs                       # Primary simulation interface (802 lines)
 ├── Form2.Designer.cs              # UI component definitions
@@ -332,7 +332,7 @@ PakDwi/
 ├── Form1.cs                       # Legacy simulation implementation
 ├── Form1.Designer.cs              # Legacy UI definitions
 ├── Form1.resx                     # Legacy resources
-├── PakDwi.csproj                  # Project configuration file
+├── RoboticLimb.csproj                  # Project configuration file
 ├── packages.config                # NuGet package manifest
 ├── App.config                     # Application configuration
 ├── Properties/                    # Assembly metadata and settings
@@ -353,25 +353,25 @@ PakDwi/
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd PakDwi
+   cd RoboticLimb
    ```
 
 2. Restore NuGet packages:
    ```
-   nuget restore PakDwi.sln
+   nuget restore RoboticLimb.sln
    ```
 
 3. Build the solution:
    ```
-   msbuild PakDwi.sln /p:Configuration=Debug
+   msbuild RoboticLimb.sln /p:Configuration=Debug
    ```
 
 4. Run the application:
    ```
-   bin\Debug\PakDwi.exe
+   bin\Debug\RoboticLimb.exe
    ```
 
-Alternatively, open `PakDwi.slnx` in Visual Studio and build using the IDE.
+Alternatively, open `RoboticLimb.slnx` in Visual Studio and build using the IDE.
 
 ## Usage
 
